@@ -11,4 +11,4 @@ private:
 	int numerator_;
 	int denominator_;
 };
-
+const Rational operator*(const Rational& lhs, const Rational& rhs);
